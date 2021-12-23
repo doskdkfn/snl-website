@@ -1,0 +1,8 @@
+# ignore .files
+*.zip
+*.psd
+*.ai
+*.fig
+
+.vscode/
+source/

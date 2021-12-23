@@ -13,3 +13,102 @@ a, a:link {
    height: 152px;
    margin: 0 auto;
 }
+
+.picture {
+    max-width: 100%;
+    background:url("../images/heroImg.jpg") center;
+    height: 335px;
+}
+
+.menu {
+    background: #191919;
+    color: white;
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 25px 0;
+    
+}
+.menu li:nth-child(2) {
+    margin: 0 30px;
+}
+.menu a:hover {
+    color: #01ccff;
+}
+
+table {
+    border-collapse: collapse;
+    width: 800px;
+    margin: 0 auto;
+}
+table,th, td {
+    border: 1px solid #191919
+}
+th,td {
+    padding: 10px 0;
+    text-align: center;
+    vertical-align: middle;
+}
+th {
+    background: #f7f7f7;
+}
+.bg {
+    background: #ffeded;
+}
+.point {
+    color: #ff000f;
+}
+caption {
+    margin: 50px 0 30px;
+    font-size: 18px;
+}
+
+#td_fee th {
+    width: 25%;
+}
+#tb_cast th {
+    width: 25%;
+}
+#tb_cast {
+    margin-bottom: 50px;
+}
+.extra-menu {
+    background: #fafafa;    
+    border-top: 1px solid #666;
+}
+.extra-menu ul {
+    text-align: center;
+}
+.extra-menu li {
+    display: inline-block;
+    padding: 25px 0;
+    
+}
+.extra-menu li:nth-child(2) {
+    margin: 0 30px;
+}
+.black-bg {
+    background: #191919;
+    overflow: hidden;
+}
+.black-bg p {
+    text-align: center;
+    line-height: 15px 0;
+}
+.footer-logo {
+    height: 101px;
+    margin: 30px auto 20px;
+}    
+
+/* rwd(responsive web design, 반응형 웹디자인)*/
+@media screen and (max-width: 480px) {
+    .picture {
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    #td_fee, #td_cast {
+        max-width: 90%;
+    }
+}
